@@ -1,7 +1,7 @@
 import socket, struct, os
 import paho.mqtt.client as mqtt
 
-IP = os.getenv("waveshare_ip", "192.168.1.100")
+IP = os.getenv("waveshare_ip", "192.168.1.249")
 PORT = int(os.getenv("waveshare_port", "502"))
 TOPIC = os.getenv("mqtt_topic", "homeassistant/sensor/go_econtroller_910332_grid_power/state")
 BROKER = os.getenv("mqtt_broker", "core-mosquitto")
