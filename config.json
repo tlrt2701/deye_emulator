@@ -5,6 +5,11 @@
   "description": "Emuliert einen SDM630 über Modbus RTU für Deye Wechselrichter",
   "startup": "application",
   "boot": "auto",
+  "url": "https://github.com/tlrt2701/deye_emulator",
+  "panel_icon": "mdi:chip",
+  "ingress": false,
+  "arch": ["amd64", "armv7", "aarch64"],
+  "image": "local/sdm630_emulator",
   "options": {
     "mqtt_broker": "core-mosquitto",
     "mqtt_topic": "homeassistant/sensor/go_econtroller_910332_grid_power/state",
@@ -18,6 +23,5 @@
     "waveshare_ip": "str",
     "waveshare_port": "int",
     "slave_id": "int"
-  },
-  "image": "local/sdm630_emulator"
+  }
 }
