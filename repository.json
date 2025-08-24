@@ -7,7 +7,7 @@
       "name": "SDM630 Emulator",
       "slug": "sdm630_emulator",
       "description": "Emuliert einen SDM630 über Modbus RTU für Deye Wechselrichter",
-      "url": "https://github.com/thorsten-addons/deye-meter-emulator/tree/main/sdm630_emulator",
+      "url": "https://github.com/thorsten-addons/deye-meter-emulator",
       "version": "1.0.0",
       "stage": "stable",
       "startup": "application",
