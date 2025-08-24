@@ -9,7 +9,6 @@
   "panel_icon": "mdi:chip",
   "ingress": false,
   "arch": ["amd64", "armv7", "aarch64"],
-  "image": "local/sdm630_emulator",
   "options": {
     "mqtt_broker": "core-mosquitto",
     "mqtt_topic": "homeassistant/sensor/go_econtroller_910332_grid_power/state",
