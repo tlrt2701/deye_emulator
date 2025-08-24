@@ -15,7 +15,7 @@
       "options": {
         "mqtt_broker": "core-mosquitto",
         "mqtt_topic": "homeassistant/sensor/go_econtroller_910332_grid_power/state",
-        "waveshare_ip": "192.168.1.100",
+        "waveshare_ip": "192.168.1.249",
         "waveshare_port": 502,
         "slave_id": 1
       },
